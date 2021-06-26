@@ -1,0 +1,39 @@
+.About{
+    position: relative;
+    left:350px;
+    height: 100vh;
+    background-color:#ffff;
+    width: 950px;
+    /* border: 1px solid black; */
+    /* overflow-x: initial; */
+}
+.aboutme_header{
+  padding: 30px 0px;
+}
+span{
+    color: #999999;
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+     /* margin: 0px 0px 20px 30px; */
+     /* padding: 0px 12px; */
+}
+ h2{
+    color: #000;
+    letter-spacing: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.aboutme_header p{
+    color: #999999;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

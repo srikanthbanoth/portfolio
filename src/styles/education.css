@@ -1,0 +1,68 @@
+.education{
+    position: relative;
+    left:350px;
+    height: 100vh;
+    background-color:#ffff;
+    width: 950px;
+    margin-top: 20px;
+}
+span{
+     color: #999999;
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.education__higher{
+    background: #F2F3F7;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 15px;
+}
+.education__higher h3{
+    margin-bottom: 5px;
+}
+.education__ugc{
+    background: #F2F3F7;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.education{
+   display: flex;
+   flex-direction: column;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.skills h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+
+}
+.icons{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills .icons svg{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    padding: 10px;
+    transition: transform 0.2s ease;
+    /* border-radius: 50%; */
+}
+.skills .icons svg:hover{
+    transform: scale(1.08);
+}
