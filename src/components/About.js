@@ -11,8 +11,8 @@ function About() {
     {
         name:'Portfolio',
         description:'Personal Portfolio Web App made using REACT JS ',
-        code:'https://github.com/srikanthbanoth/Visualiser',
-        // demo:''
+        code:'https://github.com/srikanthbanoth/portfolio',
+        demo:'https://banothsrikanth.herokuapp.com/'
     },
     {
         name:'The Favourite Book',
